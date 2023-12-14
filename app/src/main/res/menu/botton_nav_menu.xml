@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/recipesMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Recipes"
+        android:icon="@drawable/baseline_restaurant_24" />
+    <item
+        android:id="@+id/maelPlannerMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Meal Planner"
+        android:icon="@drawable/baseline_fastfood_24"/>
+    <item
+        android:id="@+id/blogMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Our Blog"
+        android:icon="@drawable/baseline_question_answer_24"/>
+    <item
+        android:id="@+id/contactMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Contact"
+        android:icon="@drawable/baseline_contact_mail_24"/>
+    <item
+        android:id="@+id/AboutMeMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="About Me"
+        android:icon="@drawable/baseline_person_24"/>
+</menu>

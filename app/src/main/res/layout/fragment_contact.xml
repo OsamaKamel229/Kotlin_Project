@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/lightGreen"
+        android:text="@string/text_with_underline"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="391dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="100sp"
+        android:text="We would love to hear from you! \n\n Call Us or Email Us"
+        android:textColor="@color/LightPurple"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/phoneDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:src="@drawable/baseline_local_phone_24"
+        android:contentDescription="Add Details"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/emailDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/baseline_attach_email_24"
+        android:contentDescription="Add Details"
+
+    />
+
+</FrameLayout>
